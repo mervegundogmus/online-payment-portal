@@ -13,11 +13,11 @@
 - Sample SQL Query: SELECT * FROM CUSTOMER;;
 - List all customer
 
-![github](customer-register3.png)
+![github](customer-register.png)
 
 #### Swagger UI Page
-![github](customer-register.png)
 ![github](customer-register2.png)
+![github](customer-register3.png)
 
 ## Payment Controller
 #### H2 Database Page
