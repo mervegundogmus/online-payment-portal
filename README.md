@@ -15,4 +15,10 @@ http://localhost:8080/h2-console/
 
 ![github](h2-console.png)
 
+### Payment Controller Page
+List all payments by customer ıd
+![github](payment-by-customer.png)
+![github](payment-by-customer2.png)
+![github](payment-by-customer3.png)
+
 
