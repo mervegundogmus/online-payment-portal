@@ -23,6 +23,7 @@
 #### H2 Database Page
 - Sample SQL Query: SELECT * FROM PAYMENT WHERE CUSTOMER_ID = 1;
 - List all payments by customer number
+  
 ![github](payment-by-customer.png)
 
 #### Swagger UI Page
