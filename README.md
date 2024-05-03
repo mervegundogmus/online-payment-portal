@@ -15,9 +15,13 @@ http://localhost:8080/h2-console/
 
 ![github](h2-console.png)
 
-### Payment Controller Page
-List all payments by customer ıd
+### Payment Controller
+#### H2 Database Page
+- Sample SQL Query: SELECT * FROM PAYMENT WHERE CUSTOMER_ID = 1;
+- List all payments by customer number
 ![github](payment-by-customer.png)
+
+#### Swagger UI Page
 ![github](payment-by-customer2.png)
 ![github](payment-by-customer3.png)
 
