@@ -12,12 +12,13 @@
 #### H2 Database Page
 - Sample SQL Query: SELECT * FROM CUSTOMER;;
 - List all customer
-![github](customer-register.png)
 
-#### Swagger UI Page
-![github](customer-register2.png)
+#### H2 Database Page
 ![github](customer-register3.png)
 
+#### Swagger UI Page
+![github](customer-register.png)
+![github](customer-register2.png)
 
 ## Payment Controller
 #### H2 Database Page
