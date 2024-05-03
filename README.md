@@ -13,7 +13,6 @@
 - Sample SQL Query: SELECT * FROM CUSTOMER;;
 - List all customer
 
-#### H2 Database Page
 ![github](customer-register3.png)
 
 #### Swagger UI Page
