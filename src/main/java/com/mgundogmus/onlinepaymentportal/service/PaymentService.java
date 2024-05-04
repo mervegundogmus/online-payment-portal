@@ -3,7 +3,6 @@ package com.mgundogmus.onlinepaymentportal.service;
 import com.mgundogmus.onlinepaymentportal.entity.Payment;
 
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 
 public interface PaymentService {

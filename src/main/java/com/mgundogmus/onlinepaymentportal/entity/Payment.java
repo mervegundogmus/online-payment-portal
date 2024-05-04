@@ -3,7 +3,6 @@ package com.mgundogmus.onlinepaymentportal.entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 @Entity
 public class Payment {
