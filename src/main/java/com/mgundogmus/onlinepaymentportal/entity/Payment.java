@@ -1,6 +1,7 @@
 package com.mgundogmus.onlinepaymentportal.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.DecimalMin;
 
 import java.time.LocalDate;
 
@@ -10,6 +11,7 @@ public class Payment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "PAYMENT_ID")
     private Long id;
+    @DecimalMin(value = "0.01", message = "Ödeme tutarı 0'dan büyük olmalıdır")
     @Column(name = "AMOUNT")
     private Double amount;
 
