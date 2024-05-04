@@ -2,6 +2,7 @@ package com.mgundogmus.onlinepaymentportal.entity;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -17,11 +18,8 @@ public class Payment {
     @JoinColumn(name = "CUSTOMER_ID", nullable = false)
     private Customer customer;
 
-    @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "PAYMENT_DATE")
-    private Date paymentDate; // Ödeme tarihi
-
-    // TODO: Diğer alanlar eklenebilir
+    private LocalDate paymentDate; // Ödeme tarihi
 
     public Long getId() {
         return id;
@@ -47,11 +45,11 @@ public class Payment {
         this.customer = customer;
     }
 
-    public Date getPaymentDate() {
+    public LocalDate getPaymentDate() {
         return paymentDate;
     }
 
-    public void setPaymentDate(Date paymentDate) {
+    public void setPaymentDate(LocalDate paymentDate) {
         this.paymentDate = paymentDate;
     }
 

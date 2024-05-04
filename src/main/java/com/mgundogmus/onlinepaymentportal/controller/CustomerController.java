@@ -22,5 +22,4 @@ public class CustomerController {
         logger.info("Register {}", customer);
         return customerService.registerCustomer(customer);
     }
-    // Diğer endpoint'ler buraya eklenebilir
 }

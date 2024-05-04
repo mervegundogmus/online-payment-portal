@@ -21,11 +21,9 @@ public class Customer {
     @Column(name = "CREDIT_CARD_NUMBER")
     private String creditCardNumber; // Kredi kartı numarası alanı
 
-
     public Customer() {
 
     }
-
     public Long getCustomerId() {
         return id;
     }

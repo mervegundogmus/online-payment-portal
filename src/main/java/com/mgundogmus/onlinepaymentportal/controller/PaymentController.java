@@ -5,6 +5,7 @@ import com.mgundogmus.onlinepaymentportal.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -26,9 +27,7 @@ public class PaymentController {
     }
 
     @GetMapping("/byDate")
-    public List<Payment> getPaymentsByDateRange(@RequestParam Date paymentDate) {
-        return paymentService.getPaymentsByDateRange(paymentDate);
+    public List<Payment> getPaymentsByDateRange(@RequestParam LocalDate startDate, @RequestParam LocalDate endDate) {
+        return paymentService.getPaymentsByDateRange(startDate, endDate);
     }
-
-    // Diğer endpoint'ler buraya eklenebilir
 }
